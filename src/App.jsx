@@ -1,8 +1,9 @@
+import React from "react";
+import { useState } from 'react'
 import Navbar1 from "./Navbar1.jsx";
 import Navbar2 from "./Navbar2.jsx";
 import Maincontent1 from "./Maincontent1.jsx"
 import Maincontent2 from "./Maincontent2.jsx";
-import React from "react";
 import './dark.css'
 import './light.css'
 export default function App()
