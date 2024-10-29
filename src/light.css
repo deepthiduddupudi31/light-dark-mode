@@ -1,0 +1,65 @@
+.app
+{
+    border:1px solid black;
+}
+
+button
+{
+   padding:0.5rem;
+   margin-right:20px;
+   width:12%;
+   color:black;
+}
+.navbar1
+{
+  height:100px;
+  width:100%;
+  background-color: white;
+  display:flex;
+  align-items: center;
+  border-bottom:2px solid grey;
+  
+ 
+}
+.heading1
+{
+  color:skyblue;
+  margin-left:10px;
+ 
+}
+.subheading1
+{
+  color:black;
+  margin-left:350px;
+}
+.main-content1
+{
+   height:700px;
+   background-color:white;
+}
+.main-heading1
+{
+  color:black;
+  padding-left:17%;
+  padding-top:25px;
+  font-size:50px;
+}
+.list1
+{
+  color:black;
+  gap:2px;
+  padding-top:2rem;
+  padding-left:17%;
+  font-size:20px;
+}
+.main-list1
+{
+   padding-top:2rem;
+   list-style-type: none;
+}
+.main-list1 .list1::before {
+  content: "• "; 
+  color: skyblue; 
+  font-size: 2.0rem;
+}
+
