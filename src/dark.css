@@ -1,3 +1,30 @@
+*
+{
+   padding:0;
+   margin:0;
+}
+.navbar
+{
+  padding:0;
+  margin:0;
+}
+.main-content
+{
+  padding:0;
+  margin:0;
+}
+
+
+
+.app
+{
+  width:50%;
+  margin-left:400px;
+ 
+  
+
+
+}
 .navbar
 {
   height:100px;
@@ -54,4 +81,46 @@ button
   content: "• "; 
   color: #ADD8E6; 
   font-size: 2.0rem;
+}
+@media  screen and (max-width:425px) {
+  .app
+   {
+      width:85%;
+      margin-left:20px;
+      margin-top: 20px;
+      background-color: red;
+   }
+  button
+{
+   padding:0.5rem;
+   margin-left:70px;
+   width:20%;
+}
+.main-heading
+{
+  color:white;
+  padding-left:17%;
+  padding-top:30px;
+  font-size:25px;
+}
+.list
+{
+  color:white;
+  gap:1px;
+  padding-top:2rem;
+  padding-left:17%;
+  font-size:17px;
+  min-width:20px;
+}
+.main-list .list::before {
+  content: "• "; 
+  color: #ADD8E6; 
+  font-size:1rem;
+}
+.main-content
+{
+   height:500px;
+   
+}
+  
 }

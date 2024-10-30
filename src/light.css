@@ -1,6 +1,23 @@
+*
+{
+   padding:0;
+   margin:0;
+}
+.navbar1
+{
+  padding:0;
+  margin:0;
+}
+.main-content1
+{
+  padding:0;
+  margin:0;
+}
 .app
 {
     border:1px solid black;
+    width:50%;
+   margin-left:400px;
 }
 
 button
@@ -23,7 +40,7 @@ button
 }
 .heading1
 {
-  color:skyblue;
+  color:blue;
   margin-left:10px;
  
 }
@@ -62,4 +79,47 @@ button
   color: skyblue; 
   font-size: 2.0rem;
 }
+@media  screen and (max-width:425px) {
+  .app{
+     width:85%;
+     margin-left:20px;
+     margin-top:20px;
+     
+  }
+  button
+  {
+     padding:0.5rem;
+     margin-left:70px;
+     width:20%;
+  }
+  .main-heading1
+  {
+    color:black;
+    padding-left:17%;
+    padding-top:30px;
+    font-size:25px;
+  }
+  .list1
+{
+  color:black;
+  gap:1px;
+  padding-top:2rem;
+  padding-left:17%;
+  font-size:17px;
+  min-width:20px;
+}
+.main-list1 .list1::before {
+  content: "• "; 
+  color: blue; 
+  font-size: 1.0rem;
+}
+.main-content1
+{
+   height:500px;
+   
+}
+  
 
+
+  
+}

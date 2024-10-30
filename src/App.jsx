@@ -4,8 +4,6 @@ import Navbar1 from "./Navbar1.jsx";
 import Navbar2 from "./Navbar2.jsx";
 import Maincontent1 from "./Maincontent1.jsx"
 import Maincontent2 from "./Maincontent2.jsx";
-import './dark.css'
-import './light.css'
 export default function App()
 {
   const[state,setstate]=React.useState(true);
